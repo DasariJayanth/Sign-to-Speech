@@ -39,3 +39,6 @@ Faster RCNN | 86%
 
   
 For the second part, one of the top performing ***Sileros TTS*** models at the time has been used for the Speech Recognition from the Text, produced from above.  
+
+
+For detailed explanation, please refer [FER.pdf](https://github.com/DasariJayanth/Sign-to-Speech/blob/723f5b9b311223c913bf37bda5fc77eb99887d75/FER.pdf).
