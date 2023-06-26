@@ -4,15 +4,16 @@ Sign-to-Speech is done in two steps.
 1. Sign-to-Text.  
 2. Text-to-Speech.  
   
-For the first part, **American Sign Language(ASL)**, most commonly used sign language is used. Two types of ASL Datasets are used.  
-**Dataset-1** : ASL Dataset without bounding boxes.  
-**Dataset-2** : ASL Dataset with bounding boxes.  
-Trained various SOTA models, custom CNN models on the above datasets and compared their results.  
+For the first part, ***American Sign Language(ASL)***, most commonly used sign language is used. Two types of ASL Datasets are used.  
+***Dataset-1*** : ASL Dataset without bounding boxes.  
+***Dataset-2*** : ASL Dataset with bounding boxes.  
   
-## Dataset-1 ASL without Bounding Boxes  
+Trained various SOTA models, custom CNN models on the both datasets and compared their results.  
   
-| Model | Dataset | Training Accuracy | Validation Accuracy | Training Time(in sec)|  |
-|---|---|---|---|---|---
+## Dataset-1: *ASL without Bounding Boxes*  
+  
+| Model | Training Accuracy | Validation Accuracy | Training Time(in sec)|
+|---|---|---|---|
 [MobileNet](https://github.com/DasariJayanth/Sign-to-Speech/blob/1674ebdb8c9488897ca33a885ea309bfb21b54d8/models/Dataset-1/mobilenet.h5) | 65.31% | 65.91% | 1345.8388
 EfficientNetB7 | 62.48% | 63.30% | 2030.4323
 DenseNet201 | 58.94% | 61.17% | 1537.5592
@@ -26,15 +27,15 @@ Xception | 52.37% | 49.87% | 1467.0641
 InceptionV3 | 47.34% | 45.42% | 1409.6493
 <!-- Custom CNN | 82.92% | 74.57% |29502.0000 -->
 
-## Dataset-2 ASL with Bounding Boxes  
+## Dataset-2: *ASL with Bounding Boxes*  
   
 This dataset can be found at [roboflow](https://universe.roboflow.com/david-lee-d0rhs/american-sign-language-letters) website, created by David Lee.  
   
-| Model | Dataset | Training Accuracy |  |
-|---|---|---|---
+| Model | Training Accuracy |
+|---|---|
 YOLOv5x | 89%
 Faster RCNN | 86%
 [Custom CNN](https://github.com/DasariJayanth/Sign-to-Speech/blob/1674ebdb8c9488897ca33a885ea309bfb21b54d8/models/Dataset-2/Custom_CNN_ASL_aug_roboflow.h5) | 88%
 
   
-For the second part, one of the top performing **Sileros TTS** models at the time has been used for the Speech Recognition from the Text, produced from above.  
+For the second part, one of the top performing ***Sileros TTS*** models at the time has been used for the Speech Recognition from the Text, produced from above.  
