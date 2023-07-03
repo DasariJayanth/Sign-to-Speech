@@ -33,7 +33,7 @@ This dataset can be found at [roboflow](https://universe.roboflow.com/david-lee-
   
 | Model | Training Accuracy |
 |---|---|
-YOLOv5x | 89%
+[YOLOv5s](https://github.com/DasariJayanth/Sign-to-Speech/blob/5793fe47e1e7b269f4a346b3a2cb6d3dc5b91d6d/models/Dataset-2/YOLOv5s_Pretrained.pt) | 89%
 Faster RCNN | 86%
 [Custom CNN](https://github.com/DasariJayanth/Sign-to-Speech/blob/1674ebdb8c9488897ca33a885ea309bfb21b54d8/models/Dataset-2/Custom_CNN_ASL_aug_roboflow.h5) | 88%
 
